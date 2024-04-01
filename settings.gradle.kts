@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ErrorHandler"
 include(":app")
+include(":errorhandler")

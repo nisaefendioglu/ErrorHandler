@@ -3,6 +3,11 @@
 
 Error Handler is a utility code snippet for Android applications that allows graceful handling of uncaught exceptions.
 
+## Screens
+
+![Screenshot_20240402_134423](https://github.com/nisaefendioglu/ErrorHandler/assets/48391281/a0607561-c6d7-4d6e-ab5e-c3e0bff6b5e5)
+
+
 ## Usage
 
 1. **Add ExceptionHandler to your project:**

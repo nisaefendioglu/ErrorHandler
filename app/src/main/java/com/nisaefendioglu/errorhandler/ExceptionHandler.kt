@@ -13,7 +13,7 @@ class ExceptionHandler(private val context: Context) : Thread.UncaughtExceptionH
 
     override fun uncaughtException(thread: Thread, exception: Throwable) {
         val errorReport = StringBuilder().apply {
-            append("**** App Name ****$LINE_SEPARATOR")
+            append("💥 Your App Crashed 🥲$LINE_SEPARATOR")
             append("\n***** DEVICE INFORMATION *****$LINE_SEPARATOR")
             append("Brand: ${Build.BRAND} $LINE_SEPARATOR")
             append("Device: ${Build.DEVICE} $LINE_SEPARATOR")
@@ -21,7 +21,7 @@ class ExceptionHandler(private val context: Context) : Thread.UncaughtExceptionH
             append("\n***** FIRMWARE *****$LINE_SEPARATOR")
             append("SDK: ${Build.VERSION.SDK_INT} $LINE_SEPARATOR")
             append("Release: ${Build.VERSION.RELEASE} $LINE_SEPARATOR")
-            append("\n***** CAUSE OF ERROR *****$LINE_SEPARATOR")
+            append("\n💣 CAUSE OF ERROR 💣$LINE_SEPARATOR")
             append(getStackTrace(exception))
         }
 
